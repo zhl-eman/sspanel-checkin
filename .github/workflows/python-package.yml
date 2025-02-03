@@ -5,9 +5,9 @@ name: Python package
 
 on:
   workflow_dispatch:
-   schedule:
+  schedule:
      - cron: '0 9 * * *'
-
+       timezone: Asia/Shanghai
 jobs:
   build:
 
